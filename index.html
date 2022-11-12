@@ -1,25 +1,26 @@
-<!DOCTYPE <!DOCTYPE html>
-<html lang="" class="has-navbar-fixed-top">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Phoenix Ultimate</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css" />
+    <title>Phoenix Ultimate - Home</title>
+    <!-- https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body id="home">
     <nav class="navbar is-fixed-top">
         <div class="navbar-brand"> 
             <a class="navbar-item" href="#home">
-                <img src="./img/crestdark.png" alt="Phoenix crest." width="50"></a>
+                <img id="logo" src="./img/crestdark.png" alt="Phoenix crest."></a>
             
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
-              </a>
+              </a> -->
         </div>
 
         <div class="navbar-menu"> 
@@ -30,6 +31,7 @@
                 <a href="#media">Media</a>
                 <a href="#schedule">Schedule</a>
                 <a href="#latest">Latest</a> 
+                <a href="#contact">Contact</a>
             </div>
             <div class="navbar-end">
                 <a class="button is-primary" href="https://beultimate.com/collections/north-carolina-phoenix-replicas-2022">Store</a> 
@@ -38,54 +40,64 @@
     </nav>
 
 
+    <div class="content">
     <h1>Raleigh Phoenix Ultimate Frisbee</h1>
-    <img src="./img/hero.jpg" alt="Phoenix celebrates a goal against San Francisco Fury in the 2019 semifinal.">
+    <img id="hero" src="./img/hero.jpg" alt="Phoenix celebrates a goal against San Francisco Fury in the 2019 semifinal.">
     <section id="about">
         <h2>About Us</h2>
         <p>Some information about the team. TBD</p>
     </section>
     <section id="roster">
         <h2>Current Roster</h2>
+        <p style="margin-top: -15px;" >※ <em>Captain</em> | ⁂ <em>Rookie</em></p>
+        <div class="names">
         <ul>
-            <li>Alex Barnett</li>
+            <li><strong>Roster</strong></li>
+            <li><a href="https://ultiworld.com/2022/07/07/2022-d-i-womens-offensive-player-of-the-year/">Alex Barnett</a></li>
             <li>Amanda Murphy</li>
-            <li>Anne Worth</li>
-            <li>Ashley Powell</li>
+            <li><a href="https://www.youtube.com/watch?v=C4tdTLrx-To">Anne Worth</a></li>
+            <li><a href="https://www.youtube.com/watch?v=RZp7B-vuCl8">Ashley Powell ※</a></li>
             <li>Audrey Lyman</li>
-            <li>Austin Prucha</li>
-            <li>Bridget Mizener</li>
-            <li>Caitlin Gross</li>
+            <li><a href="https://www.youtube.com/watch?v=jCKczvVN3Eo">Austin Prucha</a></li>
+            <li><a href="https://www.youtube.com/watch?v=ZzLuvLM0UHg">Bridget Mizener ※</a></li>
+            <li>Caitlin Gross ⁂</li>
             <li>Carmen Tormey</li>
-            <li>Claire Bidigare-Curtis</li>
-            <li>Claire Revere</li>
-            <li>Dawn Culton</li>
-            <li>Ella Juengst</li>
+            <li>Claire Bidigare-Curtis ⁂</li>
+            <li><a href="https://www.youtube.com/watch?v=3vg4yT4sPWY">Claire Revere</a></li>
+            <li><a href="https://www.youtube.com/watch?v=lPucgR3LdWY">Dawn Culton</a></li>
+            <li>Ella Juengst</li> 
+            <!-- https://twitter.com/i/status/1458568655873118214 -->
             <li>Grace Conerly</li>
+            <!-- https://twitter.com/i/status/1458514221776445446 -->
             <li>Jessi Jones</li>
             <li>Jinny Riedel</li>
-            <li>Julia Zwierzynski</li>
-            <li>Kami Groom</li>
+            <li>Julia Zwierzynski ⁂</li>
+            <li>Kami Groom ⁂</li>
             <li>Karen Ehrhardt</li>
             <li>Katie Backus</li>
             <li>Keila Strick</li>
             <li>Lyla Stanland</li>
-            <li>Mary Rippe</li>
+            <li>Mary Rippe ※</li>
+            <!-- https://twitter.com/i/status/1454090396489986053 -->
             <li>Maya Powell</li>
             <li>Sarah Meckstroth</li>
             <li>Tyler Smith</li>
         </ul>
         <ul>
+            <li><strong>Development Players</strong></li>
             <li>Ellie Cubrilovic</li>
             <li>Michaela Dube</li>
-            <li>Michelle Landis</li>
-            <li>Sarah McKee</li>
-            <li>Sydney Rehder</li>
+            <li>Michelle Landis ⁂</li>
+            <li>Sarah McKee ⁂</li>
+            <li>Sydney Rehder ⁂</li>
         </ul>
         <ul>
+            <li><strong>Coaching Staff</strong></li>
             <li>David Allison</li>
             <li>Allan Laviolette</li>
             <li>Lindsay Soo</li>
         </ul>
+    </div>
     </section>
 
     <section id="media">
@@ -99,24 +111,19 @@
 
     <section id="schedule">
         <h2>Schedule</h2>
+        <p>Schedule and <a href="https://play.usaultimate.org/teams/events/Eventteam/?TeamId=lfnHY1XhwJHhu17qumzGbp0m%2fRuouZTihQkJ%2fF5vfsE%3d">results</a>. TBD</p>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: phx.ultimate@gmail.com</p>
-        <p>Twitter: <a href="https://twitter.com/phxultimate">@PhxUltimate</a></p>
-        <p>Instagram: <a href="https://www.instagram.com/phoenix.ultimate/?hl=en">@Phoenix.Ultimate</a></p>
-        <p>Facebook: <a href="https://www.facebook.com/PHXUltimate/">@PHXUltimate</a></p>
-    </section>
-
-    <section class="latest">
+    <section id="latest">
         <h2>Latest</h2>
+        <div class="embeds">
         <!-- Embed code from the Twitter publish site https://publish.twitter.com/# -->
-        <a class="twitter-timeline" data-height="500" data-theme="dark"
+        <!-- JS to inject "tw-align-center" class-->
+        <a class="twitter-timeline" data-height="500" data-theme="light"
             href="https://twitter.com/PhxUltimate?ref_src=twsrc%5Etfw">Tweets by PhxUltimate</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <!-- Embed code generated by Instagram -->
-        <blockquote class="instagram-media"
+        <!-- <blockquote class="instagram-media"
             data-instgrm-permalink="https://www.instagram.com/phoenix.ultimate/?utm_source=ig_embed&amp;utm_campaign=loading"
             data-instgrm-version="14"
             style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -210,8 +217,35 @@
                 </p>
             </div>
         </blockquote>
-        <script async src="//www.instagram.com/embed.js"></script>
+        <script async src="//www.instagram.com/embed.js"></script> -->
+    </div>
     </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: phx.ultimate@gmail.com</p>
+        <!-- Want to put a form here -->
+
+    </section>
+</div>
+
+<div class="footer">
+    <div class="socials">
+        <div class="social">
+            <a href="https://twitter.com/phxultimate"><img src="./img/twitter.png"></a>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/phoenix.ultimate/?hl=en"><img src="./img/insta.png"></a>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/PHXUltimate/"><img src="./img/facebook.png"></a>
+        </div>
+        <div class="social">
+            <a href="https://github.com/bvmize/phoenix-website"><img src="./img/github.png"></a>
+        </div>
+    </div>
+</div>
+
 
 </body>
 
