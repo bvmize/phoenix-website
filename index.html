@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Phoenix Ultimate - Home</title>
-    <!-- https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css -->
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script> 
 </head>
@@ -15,28 +14,26 @@
     <nav class="navbar">
         <div class="navbar-brand"> 
             <a href="#home">
-                <img class="logo" src="./img/textlogo.png" alt="Phoenix crest."></a>
-            
-            <!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a> -->
+                <img class="navbar-logo" src="./img/textlogo.png" alt="Phoenix crest.">
+            </a>
         </div>
-
-        <div class="navbar-menu"> 
-            <div class="navbar-start">
-                <a href="#home">Home</a> <!-- where to put this ID? -->
-                <a href="#about">About</a>
-                <a href="#roster">Roster</a>
-                <a href="#media">Media</a>
-                <a href="#schedule">Schedule</a>
-                <!-- <a href="#latest">Latest</a>  -->
-                <a href="#contact">Contact</a>
-            </div>
-            <div class="navbar-end">
-                <a class="button" href="https://beultimate.com/collections/north-carolina-phoenix-replicas-2022">Store</a> 
-            </div>
+        <a class="navbar-burger">
+        <!-- link behavior here on close takes to top of page -undesirable -->
+            <span class="navbar-burger-bar"></span>
+            <span class="navbar-burger-bar"></span>
+            <span class="navbar-burger-bar"></span>
+        </a>
+        <div class="navbar-links"> 
+            <ul>
+                <li><a href="#home">Home</a></li> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#roster">Roster</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <!-- <li><a href="#latest">Latest</a></li>  -->
+                <li><a href="#contact">Contact</a></li>
+                <li><a id="button" href="https://beultimate.com/collections/north-carolina-phoenix-replicas-2022">Store</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -72,7 +69,6 @@
                     we go forward, hoping that we may ignite a history of excellence as long as the previous."</em>
                     <br><br>
                     The hunt for the &#127942 continues.
-                    <br><br>
                 </p>
                 <div class="about-trophies">
                     <h3>Trophy Case</h3>
@@ -99,7 +95,7 @@
             <p>※ <em>Captain</em> | ⁂ <em>Rookie</em></p>
             <div class="names">
             <ul>
-                <li class="listtitle">Roster</li>
+                <h3 class="roster-title">Roster</h3>
                 <li><a href="https://ultiworld.com/2022/07/07/2022-d-i-womens-offensive-player-of-the-year/">Alex Barnett</a></li>
                 <li>Amanda Murphy</li>
                 <li><a href="https://www.youtube.com/watch?v=C4tdTLrx-To">Anne Worth</a></li>
@@ -128,7 +124,7 @@
                 <li>Tyler Smith</li>
             </ul>
             <ul>
-                <li class="listtitle">Developmental Players</li>
+                <h3 class="roster-title">Developmental Players</h3>
                 <li>Ellie Cubrilovic</li>
                 <li>Michaela Dube</li>
                 <li class="rookie">Michelle Landis</li>
@@ -136,7 +132,7 @@
                 <li class="rookie">Sydney Rehder</li>
             </ul>
             <ul>
-                <li class="listtitle">Coaching Staff</li>
+                <h3 class="roster-title">Coaching Staff</h3>
                 <li>David Allison</li>
                 <li>Allan Laviolette</li>
                 <li>Lindsay Soo</li>

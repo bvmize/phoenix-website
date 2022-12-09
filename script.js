@@ -56,12 +56,23 @@ function hideTrophyDesc(){
     display.textContent = "Take a look around!";   
 }
 
+function toggleHamburgerMenu(){
+    const navbarLinks = document.querySelector(".navbar-links");
+    navbarLinks.classList.toggle("active")
+    console.log(navbarLinks.classList);
+}
+
+
+//Bind Event handlers
 function bindEventHandlers(){
     const trophies = Array.from(document.querySelectorAll(".about-trophies span"));
     for (let node of trophies) {
         node.addEventListener('mouseover', showTrophyDesc);
         node.addEventListener('mouseout', hideTrophyDesc);
     }
+
+    const hamburgerMenu = document.querySelector(".navbar-burger");
+    hamburgerMenu.addEventListener('click', toggleHamburgerMenu);
 }
 
 //Bind Event Listeners
